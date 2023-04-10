@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h1{
+            color:aliceblue;
+            font-style: italic;
+            text-align: center;
+            font-size: 100px;
+            background-color: rgb(158, 105, 31);
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            align-items: center;
+            padding-left: 45%;
+            padding-top: 10%;
+            font-size: larger;
+            
+        }
+        #cityinput{
+            text-align: center;
+        }
+
+    </style>
+    
+</head>
+<body >
+    <h1>Today's weather !</h1>
+    <div>
+        <form action="/" method="post">
+            <label for = "cityinput">Enter City Name : </label>
+            <input id = "cityinput"  type = "text" name="cityname">
+            <button  class="btn" type="submit">Go</button>
+        </form>
+    </div>
+    
+    
+</body> 
+</html>
